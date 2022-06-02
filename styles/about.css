@@ -6,7 +6,7 @@
   }
  
  html {
-    background-color: #cfcfcf;
+  background-color: #999999;
    
   }
  
@@ -33,7 +33,7 @@
 
   div {
     background-color: rgb(228, 228, 228);
-    
+    border-radius: 10px;
 }
   #pano {
     display: flex;

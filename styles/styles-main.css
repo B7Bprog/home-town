@@ -3,11 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
   }
  
  html {
-    background-color: #cfcfcf;
+    background-color: #999999;
   }
   body {
    
@@ -30,7 +29,7 @@
   }
 
   div {
-    background-color: rgb(193, 193, 193);
+    background-color: rgb(228, 228, 228);
     border-radius: 10px;
 }
   #pano {
@@ -68,6 +67,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
    
   }
   .menu-button {
@@ -95,17 +95,39 @@
 
   #content-section {
     animation: fadeIn 2s;
-      margin-top: 10%;
+      margin-top: 4%;
       position: relative;
       display: grid;
-      grid-template-columns: 1fr 6fr;
+      grid-template-columns: 2fr 4fr;
+      grid-template-areas: "header header";
+
       gap: 20px;
+      font-size: 35px;
+    text-align: center;
      
+    }
+
+    #grid-item-1 {
+      grid-area: header;
     }
 
     @keyframes fadeIn {
       0% {opacity:0;}
       100% {opacity:1;}
     }
+    .content-divs {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      gap: 10px;
+      border-radius: 10px;
+      padding: 8px 8px 8px 8px;
+      border: 4px solid rgb(182, 182, 182);
+       
+    }
+   img{
+    border-radius: 10px;
+      max-width: 100%
+      }
    
 
