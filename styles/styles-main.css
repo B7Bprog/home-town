@@ -197,6 +197,12 @@ img {
       transition: none;
     }
 
+    .menu-button:hover {
+       
+    }
+
+    
+
     #content-section {
 
       display: flex;
@@ -222,6 +228,10 @@ img {
         margin-bottom: 10px;
         width: 80vw;
         transition: none;
+      }
+
+      .menu-button:hover {
+       
       }
 
       #content-section {
